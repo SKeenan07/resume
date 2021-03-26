@@ -1,0 +1,53 @@
+body, html {
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Abril Fatface', cursive;
+}
+.parallax { 
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax-header { 
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.outer {
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+}
+.outer > .inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.section-header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.green-background {
+	background-color: #6e9277;
+}
+.cream-background {
+	background-color: #fefff8;
+}
+.cream-border {
+	border: 25px;
+	border-style: solid;
+	border-color: #fefff8;
+}
+.card-header {
+	background-color: #6e9277;
+}
+.card-body, .card-footer {
+	background-color: #fefff8;
+}
