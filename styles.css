@@ -40,14 +40,17 @@ h1, h2, h3, h4, h5, h6 {
 .cream-background {
 	background-color: #fefff8;
 }
-.cream-border {
+.green-border {
 	border: 25px;
 	border-style: solid;
-	border-color: #fefff8;
+	border-color: #6e9277;
 }
 .card-header {
 	background-color: #6e9277;
 }
 .card-body, .card-footer {
 	background-color: #fefff8;
+}
+.col-md-6, .col-md-4 {
+	padding-bottom: 20px;
 }
